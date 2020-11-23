@@ -1,0 +1,19 @@
+.contacts {
+  padding: 14px 0;
+  display: flex;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .contacts {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .contacts {
+    font-size: 13px;
+    line-height: 16px;
+  }
+}

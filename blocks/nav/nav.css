@@ -1,0 +1,19 @@
+.nav {
+  display: grid;
+  grid-template-columns: minmax(min-content, max-content) 1fr;
+  grid-template-areas: "logo menu";
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  min-width: 300px;
+}
+
+@media screen and (max-width: 455px) {
+  .nav {
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    grid-template-areas:
+    "logo button"
+    "menu menu";
+    padding-top: 10px;
+  }
+}

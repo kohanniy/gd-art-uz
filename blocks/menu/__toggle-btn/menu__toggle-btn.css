@@ -1,0 +1,26 @@
+.menu__toggle-btn {
+  padding: 0;
+  display: none;
+  grid-area: button;
+  justify-self: end;
+  width: 33px;
+  height: 33px;
+  border: none;
+  outline: none;
+  transition: transform 0.2s linear;
+  background-color: transparent;
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.menu__toggle-btn:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 455px) {
+  .menu__toggle-btn {
+    display: block;
+    margin-right: 10px;
+  }
+}

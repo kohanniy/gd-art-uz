@@ -1,0 +1,45 @@
+.menu__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#1C1C1C;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 31px 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  transition: all 0.4s ease-in-out;
+}
+
+.menu__link:hover {
+  background-color: #1F1F1F;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .menu__link {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 25px 16px;
+  }
+}
+
+@media screen and (max-width: 562px) {
+  .menu__link {
+    padding: 20px 10px;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .menu__link {
+    transform: translateX(100%);
+    transition: transform 0.5s linear;
+    width: 100%;
+    padding: 0;
+    opacity: 0;
+    font-weight: bold;
+  }
+}

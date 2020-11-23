@@ -1,0 +1,12 @@
+.section {
+  box-sizing: border-box;
+  width: 90%;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 455px) {
+  .section {
+    width: 100%;
+  }
+}

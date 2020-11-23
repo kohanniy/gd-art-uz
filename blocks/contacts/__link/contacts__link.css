@@ -1,0 +1,19 @@
+.contacts__link {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding-right: 14px;
+  text-decoration: none;
+  color: #969696;
+  transition: transform 0.3s linear;
+}
+
+.contacts__link:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 455px) {
+  .contacts__link {
+    margin-left: 10px;
+  }
+}

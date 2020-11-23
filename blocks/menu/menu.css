@@ -1,0 +1,14 @@
+.menu {
+  grid-area: menu;
+  justify-self: end;
+}
+
+@media screen and (max-width: 455px) {
+  .menu {
+    margin-top: 10px;
+    width: 100%;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.4s linear;
+  }
+}
