@@ -1,0 +1,11 @@
+.block__content_past-collection {
+  order: 2;
+  background: #FFED00;
+  padding: 100px 0;
+}
+
+@media screen and (max-width: 736px) {
+  .block__content {
+    width: 100%;
+  }
+}

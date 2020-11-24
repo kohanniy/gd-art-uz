@@ -1,0 +1,14 @@
+.card__text {
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.31;
+  color: #D0D0D0;
+}
+
+@media screen and (max-width: 1024px) {
+  .card__text {
+    font-size: 13px;
+  }
+}

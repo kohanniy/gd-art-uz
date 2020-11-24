@@ -1,0 +1,26 @@
+.card__img {
+  background: #000000;
+  width: 100%;
+  padding: 20px 0;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  transition: transform 0.4s ease-in-out;
+  z-index: 0;
+
+}
+
+.card__img:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 1024px) {
+  .card__img {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 491px) {
+  .card__img {
+    margin-bottom: 5px;
+  }
+}
