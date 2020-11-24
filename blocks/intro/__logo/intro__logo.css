@@ -1,0 +1,15 @@
+.intro__logo {
+  width: 58%;
+  margin-bottom: 26px;
+}
+
+.intro__logo:hover {
+  animation: hinge 2s ease-in-out 1;
+  animation-fill-mode: forwards;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__logo {
+    width: 70%;
+  }
+}

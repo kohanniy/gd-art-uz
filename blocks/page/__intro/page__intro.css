@@ -1,0 +1,16 @@
+.page__intro {
+  width: 100%;
+  min-height: 810px;
+}
+
+@media screen and (max-width: 1024px) {
+  .page__intro {
+    min-height: 540px;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .page__intro {
+    min-height: 500px;
+  }
+}
