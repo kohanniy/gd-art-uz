@@ -5,6 +5,7 @@
 @import url('../blocks/page/__header/page__header.css');
 @import url('../blocks/page/__intro/page__intro.css');
 @import url('../blocks/section/section.css');
+@import url('../blocks/section/_news/section_news.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__nav-wrap/header__nav-wrap.css');
 @import url('../blocks/header/__logo/header__logo.css');
@@ -30,3 +31,19 @@
 @import url('../blocks/intro/__title/intro__title.css');
 @import url('../blocks/intro/__text/intro__text.css');
 @import url('../blocks/hinge/hinge.css');
+@import url('../blocks/block/block.css');
+@import url('../blocks/block/__img/block__img.css');
+@import url('../blocks/block/__title/block__title.css');
+@import url('../blocks/block/__content/block__content.css');
+@import url('../blocks/block/__cards/block__cards.css');
+@import url('../blocks/cards/cards.css');
+@import url('../blocks/card/card.css');
+@import url('../blocks/card/__img/card__img.css');
+@import url('../blocks/card/__heading/card__heading.css');
+@import url('../blocks/card/__text/card__text.css');
+@import url('../blocks/block/__img/_past-collection/block__img_past-collection.css');
+@import url('../blocks/block/__content/_past-collection/block__content_past-collection.css');
+@import url('../blocks/block/__title/_past-collection/block__title_past-collection.css');
+@import url('../blocks/block/__text/block__text.css');
+@import url('../blocks/news/news.css');
+@import url('../blocks/news/__cards/news__cards.css');

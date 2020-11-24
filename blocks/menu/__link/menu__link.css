@@ -2,15 +2,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color:#1C1C1C;
+  color: #2b2a29;
   box-sizing: border-box;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 31px 20px;
+  padding: 20px 10px;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 1.125;
+  font-size: 14px;
+  line-height: 1.28;
   transition: all 0.4s ease-in-out;
 }
 
@@ -22,7 +22,6 @@
 @media screen and (max-width: 768px) {
   .menu__link {
     font-size: 12px;
-    padding: 25px 16px;
   }
 }
 

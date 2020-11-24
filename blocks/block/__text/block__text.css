@@ -1,0 +1,16 @@
+.block__text {
+  margin: 0;
+  width: 45%;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #2b2a29;
+}
+
+@media screen and (max-width: 1439px) {
+  .block__text {
+    width: 80%;
+  }
+}

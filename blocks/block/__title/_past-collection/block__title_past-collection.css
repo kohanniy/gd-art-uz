@@ -1,0 +1,7 @@
+.block__title_past-collection {
+  color: #2b2a29;
+}
+
+.block__title_past-collection::after {
+  background-color: #2b2a29;
+}

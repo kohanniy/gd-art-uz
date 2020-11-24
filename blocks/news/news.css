@@ -1,0 +1,26 @@
+.news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+  .news {
+    padding: 70px 0;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .news {
+    padding: 50px 0;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .news {
+    padding: 35px 0;
+  }
+}

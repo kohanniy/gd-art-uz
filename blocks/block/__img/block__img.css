@@ -1,0 +1,24 @@
+.block__img {
+  background: url('../../../images/new-col.jpg') center no-repeat;
+  background-size: cover;
+  width: 46%;
+  order: 2;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 78px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+  .block__img {
+    padding-bottom: 50px;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .block__img {
+    display: none;
+  }
+}
