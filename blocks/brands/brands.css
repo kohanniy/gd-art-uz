@@ -1,0 +1,25 @@
+.brands {
+  width: 100%;
+  background-color: #FFED00;
+  font-family: 'Montserrat', Arial, sans-serif;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  .brands {
+    padding: 50px 0 67px;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .brands {
+    padding: 40px 0 53px;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .brands {
+    padding: 30px 0 40px;
+  }
+}

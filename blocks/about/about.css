@@ -1,0 +1,39 @@
+.about {
+  width: 100%;
+  background: url('../../images/about-bg.jpg') center no-repeat;
+  background-size: cover;
+  padding: 80px 0 100px;
+  box-sizing: border-box;
+  position: relative;
+  color: #ffffff;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.about::before {
+  width: 100%;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(0deg, rgba(15, 15, 15, 0.85), rgba(15, 15, 15, 0.85));
+  z-index: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .about {
+    padding: 60px 0 75px;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .about {
+    padding: 40px 0 50px;
+  }
+}
+
+@media screen and (max-width: 491px) {
+  .about {
+    padding: 30px 0 38px;
+  }
+}

@@ -1,0 +1,13 @@
+.about__text {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 491px) {
+  .about__text {
+    text-align: center;
+  }
+}

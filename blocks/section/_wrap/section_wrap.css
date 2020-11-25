@@ -1,0 +1,10 @@
+.section_wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 491px) {
+  .section_wrap {
+    flex-direction: column;
+  }
+}

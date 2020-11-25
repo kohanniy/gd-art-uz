@@ -5,7 +5,8 @@
 @import url('../blocks/page/__header/page__header.css');
 @import url('../blocks/page/__intro/page__intro.css');
 @import url('../blocks/section/section.css');
-@import url('../blocks/section/_news/section_news.css');
+@import url('../blocks/section/_narrow/section_narrow.css');
+@import url('../blocks/section/_wrap/section_wrap.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__nav-wrap/header__nav-wrap.css');
 @import url('../blocks/header/__logo/header__logo.css');
@@ -47,3 +48,13 @@
 @import url('../blocks/block/__text/block__text.css');
 @import url('../blocks/news/news.css');
 @import url('../blocks/news/__cards/news__cards.css');
+@import url('../blocks/brands/brands.css');
+@import url('../blocks/brands/__logos/brands__logos.css');
+@import url('../blocks/brands/__logo/brand__logo.css');
+@import url('../blocks/about/about.css');
+@import url('../blocks/about/__content/about__content.css');
+@import url('../blocks/about/__title/about__title.css');
+@import url('../blocks/about/__text/about__text.css');
+@import url('../blocks/about/__categories/about__categories.css');
+@import url('../blocks/about/__category-names/about__category-names.css');
+@import url('../blocks/about/__category-name/about__category-name.css');

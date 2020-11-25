@@ -1,0 +1,15 @@
+.about__category-name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 10px 21px;
+  background-color: #0F0F0F;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  text-align: end;
+}
+
+.about__category-name:last-of-type {
+  margin-bottom: 0;
+}
