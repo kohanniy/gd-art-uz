@@ -1,0 +1,6 @@
+.footer {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+  padding: 17px 0;
+}
