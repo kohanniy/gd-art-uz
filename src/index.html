@@ -5,18 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Graphiс Design/SMM - Gd.art.uz</title>
-  <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="page">
   <div class="page__container">
     <header class="page__header header">
       <div class="contacts section">
-        <a class="contacts__link" href="tel:+998917753033"><img class="contacts__phone-icon" src="./images/phone-icon.svg" alt="иконка телефона">+998 (91) 775 30 33</a>
+        <a class="contacts__link" href="tel:+998917753033"><img class="contacts__phone-icon" src="<%=require('./images/phone-icon.svg')%>" alt="иконка телефона">+998 (91) 775 30 33</a>
         <p class="contacts__text">Работаем 24/7</p>
       </div>
       <div class="header__nav-wrap">
         <nav class="nav section">
-          <img class="header__logo" src="./images/logo-black.svg" alt="лого">
+          <img class="header__logo" src="<%=require('./images/logo-black.svg')%>" alt="лого">
           <button type="button" class="menu__toggle-btn menu__toggle-btn_closed"></button>
           <div id="menu" class="menu">
             <ul class="menu__list">
@@ -32,7 +31,7 @@
       <section class="page__intro intro">
         <div class="intro__square">
           <div class="intro__content">
-            <img id="square" src="./images/logo-white.svg" alt="логотип" class="intro__logo">
+            <img id="square" src="<%=require('./images/logo-white.svg')%>" alt="логотип" class="intro__logo">
             <h1 class="intro__title">Креативная команда</h1>
           </div>
         </div>
@@ -46,17 +45,17 @@
           <h2 class="block__title">Сезон 2020/21</h2>
           <ul class="block__cards cards">
             <li class="card">
-              <img src="./images/card-img.png" class="card__img">
+              <img src="<%=require('./images/card-img.png')%>" class="card__img">
               <h3 class="card__heading">Louis XVI ATHOS</h3>
               <p class="card__text">165 000 руб.</p>
             </li>
             <li class="card">
-              <img src="./images/card-img.png" class="card__img">
+              <img src="<%=require('./images/card-img.png')%>" class="card__img">
               <h3 class="card__heading">Louis XVI ATHOS</h3>
               <p class="card__text">165 000 руб.</p>
             </li>
             <li class="card">
-              <img src="./images/card-img.png" class="card__img">
+              <img src="<%=require('./images/card-img.png')%>" class="card__img">
               <h3 class="card__heading">Louis XVI ATHOS</h3>
               <p class="card__text">165 000 руб.</p>
             </li>
@@ -75,42 +74,42 @@
         <h2 class="block__title">Новые поступления</h2>
         <ul class="section section_narrow news__cards">
           <li class="card">
-            <img src="./images/card-img.png" class="card__img">
+            <img src="<%=require('./images/card-img.png')%>" class="card__img">
             <h3 class="card__heading">Louis XVI ATHOS</h3>
             <p class="card__text">165 000 руб.</p>
           </li>
           <li class="card">
-            <img src="./images/card-img.png" class="card__img">
+            <img src="<%=require('./images/card-img.png')%>" class="card__img">
             <h3 class="card__heading">Louis XVI ATHOS</h3>
             <p class="card__text">165 000 руб.</p>
           </li>
           <li class="card">
-            <img src="./images/card-img.png" class="card__img">
+            <img src="<%=require('./images/card-img.png')%>" class="card__img">
             <h3 class="card__heading">Louis XVI ATHOS</h3>
             <p class="card__text">165 000 руб.</p>
           </li>
           <li class="card">
-            <img src="./images/card-img.png" class="card__img">
+            <img src="<%=require('./images/card-img.png')%>" class="card__img">
             <h3 class="card__heading">Louis XVI ATHOS</h3>
             <p class="card__text">165 000 руб.</p>
           </li>
           <li class="card">
-            <img src="./images/card-img.png" class="card__img">
+            <img src="<%=require('./images/card-img.png')%>" class="card__img">
             <h3 class="card__heading">Louis XVI ATHOS</h3>
             <p class="card__text">165 000 руб.</p>
           </li>
           <li class="card">
-            <img src="./images/card-img.png" class="card__img">
+            <img src="<%=require('./images/card-img.png')%>" class="card__img">
             <h3 class="card__heading">Louis XVI ATHOS</h3>
             <p class="card__text">165 000 руб.</p>
           </li>
           <li class="card">
-            <img src="./images/card-img.png" class="card__img">
+            <img src="<%=require('./images/card-img.png')%>" class="card__img">
             <h3 class="card__heading">Louis XVI ATHOS</h3>
             <p class="card__text">165 000 руб.</p>
           </li>
           <li class="card">
-            <img src="./images/card-img.png" class="card__img">
+            <img src="<%=require('./images/card-img.png')%>" class="card__img">
             <h3 class="card__heading">Louis XVI ATHOS</h3>
             <p class="card__text">165 000 руб.</p>
           </li>
@@ -119,10 +118,10 @@
       <section class="brands">
         <h2 class="block__title block__title_past-collection">Наши бренды</h2>
         <ul class="brands__logos section section_narrow">
-          <li class="brands__logo-item"><a href="#" target="_blanc"><img src="./images/brand-logo.png" class="brand__logo"></a></li>
-          <li class="brands__logo-item"><a href="#" target="_blanc"><img src="./images/brand-logo.png" class="brand__logo"></a></li>
-          <li class="brands__logo-item"><a href="#" target="_blanc"><img src="./images/brand-logo.png" class="brand__logo"></a></li>
-          <li class="brands__logo-item"><a href="#" target="_blanc"><img src="./images/brand-logo.png" class="brand__logo"></a></li>
+          <li class="brands__logo-item"><a href="#" target="_blanc"><img src="<%=require('./images/brand-logo.png')%>" class="brand__logo"></a></li>
+          <li class="brands__logo-item"><a href="#" target="_blanc"><img src="<%=require('./images/brand-logo.png')%>" class="brand__logo"></a></li>
+          <li class="brands__logo-item"><a href="#" target="_blanc"><img src="<%=require('./images/brand-logo.png')%>" class="brand__logo"></a></li>
+          <li class="brands__logo-item"><a href="#" target="_blanc"><img src="<%=require('./images/brand-logo.png')%>" class="brand__logo"></a></li>
         </ul>
       </section>
       <section class="about">
@@ -151,7 +150,5 @@
       </div>
     </footer>
   </div>
-  <script type="module" src="./pages/index.js"></script>
-  <!-- https://code.s3.yandex.net/landings-portfolio/project-2/index.html -->
 </body>
 </html>
